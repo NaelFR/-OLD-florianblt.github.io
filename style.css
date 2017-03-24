@@ -15,7 +15,7 @@ body{
 }
 .form-style-10 .inner-wrap{
     padding: 15px;
-    background: #F8F8F8;
+    background: #1e1f23;
     border-radius: 6px;
     margin-bottom: 15px;
 };
@@ -42,7 +42,7 @@ body{
 .form-style-10 label{
     display: block;
     font: 13px Arial, Helvetica, sans-serif;
-    color: #888;
+    color: #2a2b31;
     margin-bottom: 15px;
 }
 .form-style-10 .section{
