@@ -2,10 +2,10 @@ body{
     background-color: rgba(54, 55, 62, 1)
 }
 .form-style-10{
-    max-width:50%;
+    max-width:66%;
     padding:30px;
     margin:40px auto;
-    background: #FFF;
+    background: #1e1f23;
     border-radius: 10px;
     -webkit-border-radius:10px;
     -moz-border-radius: 10px;
@@ -15,7 +15,7 @@ body{
 }
 .form-style-10 .inner-wrap{
     padding: 15px;
-    background: #1e1f23;
+    background: #2a2b31;
     border-radius: 6px;
     margin-bottom: 15px;
 };
@@ -51,7 +51,7 @@ body{
     margin-bottom: 5px;
 }
 .form-style-10 .section span {
-    background: #b1b3b8;
+    background:b #1b3b8;
     padding: 5px 10px 5px 10px;
     position: absolute;
     border-radius: 50%;
