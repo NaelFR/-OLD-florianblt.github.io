@@ -26,7 +26,7 @@ body{
     border-radius: 10px 10px 0 0;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
-    color: #fff;
+    color: #b1b3b8;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
     font: normal 30px 'Bitter', serif;
     -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
@@ -42,7 +42,7 @@ body{
 .form-style-10 label{
     display: block;
     font: 13px Arial, Helvetica, sans-serif;
-    color: #2a2b31;
+    color: #b1b3b8;
     margin-bottom: 15px;
 }
 .form-style-10 .section{
@@ -57,9 +57,9 @@ body{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    border: 4px solid #fff;
+    border: 4px solid #b1b3b8;
     font-size: 14px;
     margin-left: -45px;
-    color: #fff;
+    color: #b1b3b8;
     margin-top: -3px;
 }
