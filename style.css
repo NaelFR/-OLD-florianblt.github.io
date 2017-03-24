@@ -51,7 +51,11 @@ body{
     margin-bottom: 5px;
 }
 .form-style-10 .section span {
+<<<<<<< Updated upstream
     background: ##b1b3b8;
+=======
+    background: #b1b3b8;
+>>>>>>> Stashed changes
     padding: 5px 10px 5px 10px;
     position: absolute;
     border-radius: 50%;
