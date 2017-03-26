@@ -85,7 +85,7 @@ body {
 
 .mainbox label{
     display: block;
-    font: 13px Arial, Helvetica, sans-serif;
+    font: 15px Arial, Helvetica, sans-serif;
     color: #b1b3b8;
     margin-bottom: 15px;
 }
@@ -100,6 +100,10 @@ body {
 #competences{
     height: 100px;
     text-align: center;
+}
+
+.mainbox .marge{
+    margin-left: 4%;
 }
 
 div.round{
@@ -135,7 +139,7 @@ div.round canvas{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #NavPage a{
         display: none;
     }
@@ -160,7 +164,7 @@ div.round canvas{
     .mainbox h1{
         text-align: center;
     }
-    conta
+
     .mainbox{
         padding-top: none;
         max-width: 100%;
