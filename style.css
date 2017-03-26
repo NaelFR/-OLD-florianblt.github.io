@@ -19,7 +19,7 @@ body{
         max-width: 95%;
     }
 }
-/*Test*/
+
 .contactbox{
     text-align: center;
     max-width:66%;
@@ -102,11 +102,32 @@ a:hover{
     margin-bottom: 5px;
 }
 
-/* Compétences */
+/* Jauges circulaires */
 
-#Labcompetences{
-    display: block;
-    font: 15px Arial, Helvetica, sans-serif;
-    color: #b1b3b8;
-    margin-bottom: 15px;
+#competences{
+    height: 100px;
 }
+div.round{
+    width:100px; height: 100px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+}
+
+div.round > input{
+    position: absolute;
+    top:32.5px; left:25px;
+    color: #2c3e50;
+    width: 50px;
+    border:none; background:none; outline: none;
+}
+
+div.round canvas{
+    position: absolute;
+    top:0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,6 @@
                 </span>
             </h1>
         		<div class ="section">
-                <span onclick="alert('Hello !');">Cliquez-moi !</span>
                 <!-- Qui suis-je ? -->
                     Qui suis-je ? :
                         <div class="inner-wrap" id="presentation">
@@ -45,29 +44,9 @@
                 <!-- Compétences -->
                     Compétences :
                         <div class="inner-wrap" id="competences">
-                            <label id="Labcompetences">
-                                <table>
-                                    <tr>
-                                        <td>Java : </td>
-                                    </tr>
-                                    <tr>
-                                        <td>C : </td>
-                                    </tr>
-                                    <tr>
-                                        <td>HTML/CSS : </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Javascript / Jquery : </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Git : </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Réseau : </td>
-                                    </tr>
-                                    
-                                </table>
-                            </label> 
+                            <input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="Java"/>
+                            <input type="text" name="round" class="round" data-min="0" data-max="100" value="30"/>
+                            <input type="text" name="round" class="round" data-min="0" data-max="100" value="30"/>
                         </div>
                 </div>
     	</div>
@@ -87,4 +66,8 @@
         </div>
 
     </body>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+
 </html>
