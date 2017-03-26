@@ -189,3 +189,11 @@ div.round canvas{
         width: 10px;
     }
 }
+
+@media screen and (max-width: 400px){
+    div.round{
+        margin-right: 6%;
+        margin-left: 6%;
+    }
+
+}
