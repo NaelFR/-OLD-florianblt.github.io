@@ -44,3 +44,12 @@
 	})
 
 })(jQuery);
+
+function Clic_Menu() {
+    var x = document.getElementById("NavPage");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
