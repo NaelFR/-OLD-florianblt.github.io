@@ -6,12 +6,17 @@
         <title>Florian BLOT</title>
         <link rel="icon" href="favicon.ico" />
         <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="styleDark.css">
     </head>
 
     <body>
     	<div class="mainbox">
-            <h1> Florian Blot             
+            <h1> Florian Blot     
+                <div class="boutonLumiere">
+                    <a class="lumGauche"></a>
+                    <a class="lumDroit"></a>
+                    <div class="switch"></div>
+                </div>   
                 <div class="topnav" id="NavPage">
                     <a href="#presentation" >Qui suis-je ?</a>
                     <a href="#formations">Formations</a>
@@ -90,15 +95,15 @@
     	</div>
         <!-- Contact -->
         <div class ="contactbox">
-            <a href="https://www.linkedin.com/in/florian-blot/" target="_blank"> 
+            <a id="imgLink" href="https://www.linkedin.com/in/florian-blot/" target="_blank"> 
                 <img src="images/linkedin.png" alt="Linkedin" style="width: 35px;"> 
             </a>
 
-            <a href="https://github.com/Florianblt" target="_blank"> 
+            <a id="imgGit" href="https://github.com/Florianblt" target="_blank"> 
                 <img src="images/github.png" alt="Github" style="width: 35px;margin-left:15%;margin-right:15%"> 
             </a>
 
-            <a href="mailto:florianblot059@gmail.com" target="_blank"> 
+            <a id="imgMail" href="mailto:florianblot059@gmail.com" target="_blank"> 
                 <img src="images/mail.png" alt="Email" style="width: 35px;"> 
             </a>
         </div>
@@ -106,6 +111,7 @@
     </body>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
         <script type="text/javascript" src="app.js"></script>
 
 </html>

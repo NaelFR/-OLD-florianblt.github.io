@@ -131,6 +131,44 @@ div.round canvas{
 
 }
 
+/* Bouton lumière */
+ 
+.boutonLumiere {
+    float:right;
+    width:100px;
+    height:38px;
+    background-color:gray;
+    font-family:arial;
+    color:white;
+    font-weight:bold;
+    position:relative;
+    -webkit-user-select:none;
+    border-radius:200px;
+    overflow:hidden;
+    background-color: #EF4836;
+}
+
+.lumGauche {
+    margin-left:5px;
+    line-height:38px;
+}
+
+.lumDroit {
+    float:right;
+    line-height:38px;
+    margin-right:5px;
+}
+
+.switch {
+    height:38px;
+    width:38px;
+    background-color:lightgray;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border-radius:100%;
+}
+
 @media screen and (max-width: 1800px){
     #competences{
         height: 200px;
@@ -188,6 +226,10 @@ div.round canvas{
     #contactbox img{
         width: 10px;
     }
+
+    .boutonLumiere{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -197,3 +239,4 @@ div.round canvas{
     }
 
 }
+

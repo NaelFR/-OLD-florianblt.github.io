@@ -8,8 +8,8 @@
 		var max = $input.data('max');
 		var ratio = (($input.val() - min)/ (max - min));
 
-		var $circle = $('<canvas width="100px" height="100px"/>');
-		var $color = $('<canvas width="100px" height="100px"/>');
+		var $circle = $('<canvas Id="Circle" width="100px" height="100px"/>');
+		var $color = $('<canvas Id="CanColor" width="100px" height="100px"/>');
 		$div.append($circle);
 		$div.append($color);
 		
@@ -45,6 +45,8 @@
 
 })(jQuery);
 
+
+
 function Clic_Menu() {
     var x = document.getElementById("NavPage");
     if (x.className === "topnav") {
@@ -53,3 +55,35 @@ function Clic_Menu() {
         x.className = "topnav";
     }
 }
+
+/* Lumière */
+
+$(".boutonLumiere").click(function(){
+  if($(".switch").css("left")=="0px"){
+    $(".switch").animate({
+      right:"0px",
+      left:"62px"
+    },150);
+    $(".boutonLumiere").animate({
+      backgroundColor:"#2ECC71"
+    },150);
+    $("head").append($(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"styleLight.css"}))
+    document.getElementById('imgLink').innerHTML = '<img src="images/linkedinLight.png" alt="Linkedin" style="width: 35px;">';
+    document.getElementById('imgGit').innerHTML = '<img src="images/GithubLight.png" alt="Linkedin" style="width: 35px;margin-left:15%;margin-right:15%">';
+    document.getElementById('imgMail').innerHTML = '<img src="images/MailLight.png" alt="Linkedin" style="width: 35px;">';
+  } else {
+    $(".switch").animate({
+      left:"0px",
+      right:"60px"
+    },150);
+    $(".boutonLumiere").animate({
+      backgroundColor:"#EF4836"
+    },150)
+    $("head").append($(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"styleDark.css"}));
+    document.getElementById('imgLink').innerHTML = '<img src="images/linkedin.png" alt="Linkedin" style="width: 35px;">';
+    document.getElementById('imgGit').innerHTML = '<img src="images/Github.png" alt="Linkedin" style="width: 35px;margin-left:15%;margin-right:15%">';
+    document.getElementById('imgMail').innerHTML = '<img src="images/Mail.png" alt="Linkedin" style="width: 35px;">';
+  }
+});
+
+
