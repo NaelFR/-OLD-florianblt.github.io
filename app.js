@@ -69,8 +69,8 @@ $(".boutonLumiere").click(function(){
     },150);
     $("head").append($(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"styleLight.css"}))
     document.getElementById('imgLink').innerHTML = '<img src="images/linkedinLight.png" alt="Linkedin" style="width: 35px;">';
-    document.getElementById('imgGit').innerHTML = '<img src="images/GithubLight.png" alt="Linkedin" style="width: 35px;margin-left:15%;margin-right:15%">';
-    document.getElementById('imgMail').innerHTML = '<img src="images/MailLight.png" alt="Linkedin" style="width: 35px;">';
+    document.getElementById('imgGit').innerHTML = '<img src="images/githubLight.png" alt="Linkedin" style="width: 35px;margin-left:15%;margin-right:15%">';
+    document.getElementById('imgMail').innerHTML = '<img src="images/mailLight.png" alt="Linkedin" style="width: 35px;">';
   } else {
     $(".switch").animate({
       left:"0px",
@@ -81,8 +81,8 @@ $(".boutonLumiere").click(function(){
     },150)
     $("head").append($(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"styleDark.css"}));
     document.getElementById('imgLink').innerHTML = '<img src="images/linkedin.png" alt="Linkedin" style="width: 35px;">';
-    document.getElementById('imgGit').innerHTML = '<img src="images/Github.png" alt="Linkedin" style="width: 35px;margin-left:15%;margin-right:15%">';
-    document.getElementById('imgMail').innerHTML = '<img src="images/Mail.png" alt="Linkedin" style="width: 35px;">';
+    document.getElementById('imgGit').innerHTML = '<img src="images/github.png" alt="Linkedin" style="width: 35px;margin-left:15%;margin-right:15%">';
+    document.getElementById('imgMail').innerHTML = '<img src="images/mail.png" alt="Linkedin" style="width: 35px;">';
   }
 });
 
