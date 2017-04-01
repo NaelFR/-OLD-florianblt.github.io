@@ -9,6 +9,7 @@ body {
     min-height:100%; 
     margin:0; 
     background-color: #7f8c8d;
+    color: #7f8c8d;
 } 
 .mainbox{
     max-width:66%;
