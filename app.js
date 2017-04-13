@@ -202,7 +202,7 @@ $(".boutonLumiere").click(function(){
     jQuery(document).keydown(Kpress);
 })(jQuery);
 function kExec(){
-   document.location.href="https://fr.wikipedia.org/wiki/Code_Konami"
+   document.location.href="https://florianblt.github.io/images/Florian_Blot_CV.pdf"
 }
 
 
