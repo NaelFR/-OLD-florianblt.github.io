@@ -76,7 +76,7 @@ a:hover{
     text-decoration: blink;
 }
 
-.mainbox label{
+.mainbox .inner-wrap .texte{
     display: block;
     font: 13px Arial, Helvetica, sans-serif;
     color: #b1b3b8;
