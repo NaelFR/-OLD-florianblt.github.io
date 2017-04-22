@@ -10,10 +10,59 @@ html.fp-enabled,
     margin: 0;
     padding: 0;
     overflow:hidden;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
 
     /*Avoid flicker on slides transitions for mobile phones #336 */
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
+@media (max-width: 650px)
+#myMenu {
+    z-index: 9999;
+}
+
+#myMenu {
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+
+#myMenu li{
+    display: inline-block;
+    margin: 10px;
+    color: #000;
+    background: #fff;
+    background: rgba(0,0,0,0);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#examplesList ul, #myMenu {
+    padding: 0;
+}
+
+#infoMenu, #myMenu {
+    z-index: 70;
+    position: fixed;
+}
+
+#infoMenu {
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    font-size: .9em;
+    padding: 8px 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
 #superContainer {
     height: 100%;
     position: relative;
@@ -226,4 +275,31 @@ html.fp-enabled,
 .fp-responsive .fp-auto-height-responsive .fp-slide,
 .fp-responsive .fp-auto-height-responsive .fp-tableCell {
     height: auto !important;
+}
+
+/* Jauges circulaires */
+
+div.round{
+    width:100px; height: 100px;
+    margin-right: 4%;
+    margin-left: 4%;
+    position: relative;
+    float: left;
+}
+
+div.round > input{
+    position: absolute;
+    top:32.5px; left:25px;
+    color: #bdc3c7 ;
+    width: 50px;
+    border:none; background:none; outline: none;
+}
+
+div.round canvas{
+    position: absolute;
+    top:0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+
 }
