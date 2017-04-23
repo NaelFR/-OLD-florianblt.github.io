@@ -31,7 +31,8 @@ html.fp-enabled,
     }
 }
 p{
-    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #myMenu {
