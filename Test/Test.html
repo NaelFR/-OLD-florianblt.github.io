@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Florian BLOT</title>
+	<link rel="icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+<body>
+	<ul id="myMenu">
+			<li><a id="imgLink" href="https://www.linkedin.com/in/florian-blot/">
+	            <img src="images/linkedinLight.png" alt="Linkedin" style="width: 35px;"> 
+	        </a></li>
+
+	        <li><a id="imgGit" href="https://github.com/Florianblt"> 
+	            <img src="images/githubLight.png" alt="Github" style="width: 35px;margin-left:15%;margin-right:15%"> 
+	        </a></li>
+
+	        <li><a id="imgMail" href="mailto:florianblot059@gmail.com"> 
+	            <img src="images/mailLight.png" alt="Email" style="width: 35px;">
+	        </a></li>
+	</ul>
+	<div id="fullpage">
+		<div class="section" id="divPresentation">
+			<h1> Florian BLOT</h1>
+			<img src="images/photo.png" alt="Photo" id="Photo" style="width:140px"> 
+			<div id="divTexte">
+				<p>Etudiant de 24 ans en 3ème année de licence informatique à l'université de Valenciennes, je suis passionné des nouvelles technologies. </p>
+	            <p>Je suis actuellement à la recherche d'un contrat de professionnalisation pour réaliser mon master Ingénierie et projets informatique et innovation à l'université catholique de Lille</p>
+	            <p>Curieux, rigoureux et faisant preuve d'une bonne faculté d'adaptation, je suis capable de travailler aussi bien en équipe qu'en autonomie.</p> 
+	        </div>
+		</div>
+		<div class="section" id="divFormation">
+			<div class="slide">
+				<h1>Formations</h1>
+				<h3>2016 - 2017 :</h3>
+				<h4>Université de Valenciennes et du Hainaut Cambrésis</h4>
+                <p>3ème année de licence Informatique<br/></p>
+                <p>Réalisée en alternance dans la société PC-Xpert à Saint-Saulve.</p>
+			</div>
+			<div class="slide">
+				<h1>Formations</h1>
+				<h3>2014 - 2016</h3>
+				<h4>Université de Valenciennes et du Hainaut Cambrésis - Antenne de Maubeuge</h4>
+				<p>DUT Informatique à l'IUT de Maubeuge, antenne de l'université de Valenciennes.<br/></p>
+                <p>Réalisé en alternance dans la société La Maison des Coiffeurs à Neuville-Saint-Rémy.</p>
+			</div>
+			<div class="slide"> 
+				<h1>Formations</h1>
+				<h3>2011 - 2012</h3>
+				<h4>Lycée Saint-Luc - Cambrai</h4>
+                <p>Obtention du baccalauréat général scientifique.<br/></p>
+                <p>Mention assez bien.</p>
+            </div>
+		</div>
+		<div class="section" id="divExperience">
+			<div class="slide">
+				<h1>Expériences</h1>
+				<h3>2016 - 2017 : Apprenti dans la société PC-Xpert</h3>
+                <p>Maintenance de systèmes informatiques de petites et moyennes entreprise dans la région de Valenciennes (Réseau et téléphonie).</p>
+                <p>Développement d'une application pour faciliter cette maintenance.</p>
+                <p>Réalisation d'un site web pour une entreprise sous Wix et développement d'un formulaire respectant des contraintes spécifiques</p>
+                <p>Maintenance de matériel informatique auprès de particuliers.</p>
+                
+			</div>
+			<div class="slide">
+				<h1>Expériences</h1>
+				<h3>2014 - 2016 : Apprenti dans la société La Maison des Coiffeurs</h3>
+                <p>Gestion et administration du site commercial de la société.</p>
+                <p>Développement et administration de la campagne de publicité de ce site avec Google Shopping.</p>
+                <p>Assistance informatique auprès des différents salariés.</p>
+			</div>
+			<div class="slide">
+				<h1>Expériences</h1>
+				<h3>2004 - 2016 : Scout de France (Groupe de Caudry) :</h3>
+                <h4>Chef d'unité (2013 - 2016)</h4>    
+                <p>Responsable de la branche "Scout et Guides" (11-14 ans)</p>
+                <p>Planification et organisation des réunions au cours de l'année scolaire</p>
+                <p>Réalisation de projets de camps pour les vacances d'été</p>  
+			</div>
+		</div>
+		<div class="section" id="divCompetences">
+			<h1>Compétences</h1>
+			<div id="divJauges">
+				<input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="Java"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="70" data-name="C"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="45" data-name="HTML/CSS"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="40" data-name="Javascript"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="SQL"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="35" data-name="C++/Qt"/>
+	        </div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#ecf0f1', '#bdc3c7', '#ecf0f1', '#bdc3c7'],
+            anchors: ['Présentation', 'Formation', 'Experiences', 'Compétences'],
+            menu: '#myMenu',
+            css3: true,
+            scrollingSpeed: 1000
+        });
+
+        $('#showExamples').click(function(e){
+            e.stopPropagation();
+            e.preventDefault();
+            $('#examplesList').toggle();
+        });
+
+        $('html').click(function(){
+            $('#examplesList').hide();
+        });
+
+        $('.round').wrap('<div class="round" />').each(function(){
+		var $input = $(this);
+	    var $div = $input.parent();
+	    var name = $input.data('name');
+	    var min = $input.data('min');
+	    var max = $input.data('max');
+	    var ratio = (($input.val() - min)/ (max - min));
+	
+	    var $circle = $('<canvas Id="Circle" width="100px" height="100px"/>');
+	    var $color = $('<canvas Id="CanColor" width="100px" height="100px"/>');
+	    $div.append($circle);
+	    $div.append($color);
+	    
+	    //Cercle fond
+	    var ctx = $circle[0].getContext('2d');
+	    ctx.beginPath(); // Début du chemin de tracé
+	    ctx.arc(50,50,42.5,0,2*Math.PI); //(x centre, y centre, rayon, départ, arrivée);
+	    ctx.lineWidth= 10; // Largeur 
+	    ctx.strokeStyle= "#b1b3b8";
+	    ctx.shadowOffsetX= 1;
+	    ctx.shadowBlur= 2.5;
+	    ctx.shadowColor= "rgba(177,179,184,0.1)";
+	    ctx.stroke(); // Fin du chemin de tracé
+
+	    // Cercle couleur
+	    var ctx = $color[0].getContext('2d');
+	    ctx.beginPath();
+	    ctx.arc(50,50,42.5,-1/2*(Math.PI), ratio*2*(Math.PI) - 1/2*(Math.PI)); 
+	    ctx.lineWidth= 10; 
+	    ctx.strokeStyle= "#2c3e50";
+	    ctx.stroke(); 
+
+	    //Text
+	    var ctx = $color[0].getContext('2d'); 
+	    ctx.font = "13pt Arial, Helvetica, sans-serif;";
+	    ctx.strokeStyle = "rgb(0,0,0)";
+	    ctx.fillStyle = "rgb(52,73,94)";
+	    ctx.textAlign = "center"
+	    ctx.fillText(name, 50, 50);
+    });
+    });
+</script>
+</body>
+</html>
