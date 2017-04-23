@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Test</title>
 	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
@@ -23,22 +24,28 @@
 	<div id="fullpage">
 		<div class="section" id="divPresentation">
 			<h1> Florian BLOT</h1>
-			<p>Etudiant de 24 ans en 3ème année de licence informatique à l'université de Valenciennes, je suis passionné des nouvelles technologies. </p>
-            <p>Je suis actuellement à la recherche d'un contrat de professionnalisation pour réaliser mon master Ingénierie et projets informatique et innovation à l'université catholique de Lille</p>
-            <p>Curieux, rigoureux et faisant preuve d'une bonne faculté d'adaptation, je suis capable de travailler aussi bien en équipe qu'en autonomie.</p> 
+			<img src="images/photo.png" alt="Photo" id="Photo" style="width:200px"> 
+			<div id="divTexte">
+				<p>Etudiant de 24 ans en 3ème année de licence informatique à l'université de Valenciennes, je suis passionné des nouvelles technologies. </p>
+	            <p>Je suis actuellement à la recherche d'un contrat de professionnalisation pour réaliser mon master Ingénierie et projets informatique et innovation à l'université catholique de Lille</p>
+	            <p>Curieux, rigoureux et faisant preuve d'une bonne faculté d'adaptation, je suis capable de travailler aussi bien en équipe qu'en autonomie.</p> 
+	        </div>
 		</div>
 		<div class="section" id="divFormation">
 			<div class="slide">
+				<h1>Formations</h1>
 				<h3>2016 - 2017 :</h3>
                     <p>3ème année de licence Informatique à l'université de Valenciennes.<br/></p>
                     <p>Réalisée en alternance dans la société PC-Xpert à Saint-Saulve.</p>
 			</div>
 			<div class="slide">
+				<h1>Formations</h1>
 				<h3>2014 - 2016</h3>
 					<p>DUT Informatique à l'IUT de Maubeuge, antenne de l'université de Valenciennes.<br/></p>
                 	<p>Réalisé en alternance dans la société La Maison des Coiffeurs à Neuville-Saint-Rémy.</p>
 			</div>
 			<div class="slide"> 
+				<h1>Formations</h1>
 				<h3>2011 - 2012</h3>
                     <p>Obtention du baccalauréat général scientifique.<br/></p>
                     <p>Mention assez bien.</p>
@@ -46,6 +53,7 @@
 		</div>
 		<div class="section" id="divExperience">
 			<div class="slide">
+				<h1>Expériences</h1>
 				<h3>2016 - 2017 : Apprenti dans la société PC-Xpert</h3>
                     <ul>
                         <li>Maintenance de systèmes informatiques de petites et moyennes entreprise dans la région de Valenciennes (Réseau et téléphonie).</li>
@@ -55,6 +63,7 @@
                     </ul>
 			</div>
 			<div class="slide">
+				<h1>Expériences</h1>
 				<h3>2014 - 2016 : Apprenti dans la société La Maison des Coiffeurs</h3>
                     <ul>
                         <li>Gestion et administration du site commercial de la société.</li>
@@ -63,6 +72,7 @@
                     </ul>
 			</div>
 			<div class="slide">
+				<h1>Expériences</h1>
 				<h3>2004 - 2016 : Scout de France (Groupe de Caudry) :</h3>
                     <h4>Chef d'unité (2013 - 2016)</h4>
                         <ul>
@@ -73,12 +83,15 @@
 			</div>
 		</div>
 		<div class="section" id="divCompetences">
-			<input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="Java"/>
-            <input type="text" name="round" class="round" data-min="0" data-max="100" value="70" data-name="C"/>
-            <input type="text" name="round" class="round" data-min="0" data-max="100" value="45" data-name="HTML/CSS"/>
-            <input type="text" name="round" class="round" data-min="0" data-max="100" value="40" data-name="Javascript"/>
-            <input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="SQL"/>
-            <input type="text" name="round" class="round" data-min="0" data-max="100" value="35" data-name="C++/Qt"/>
+			<h1>Compétences</h1>
+			<div id="divJauges">
+				<input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="Java"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="70" data-name="C"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="45" data-name="HTML/CSS"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="40" data-name="Javascript"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="60" data-name="SQL"/>
+	            <input type="text" name="round" class="round" data-min="0" data-max="100" value="35" data-name="C++/Qt"/>
+	        </div>
 		</div>
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
