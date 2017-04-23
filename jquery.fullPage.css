@@ -28,8 +28,10 @@ html.fp-enabled,
     }
     p{
         font-size: 12px;
-        padding: 2%
     }
+}
+p{
+    padding: 2%;
 }
 
 #myMenu {
